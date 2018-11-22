@@ -1,53 +1,75 @@
 /* VARIABLES */
 
-// 
+//
 // Units
 //
 
-$base-unit: 				20px; // Body font-size
+$base-unit: 				    20px; // Body font-size
+$u:                     $base-unit; // Shortcode
 
 //
 // Colors
 //
 
-$primary-color:				rgba(255, 176, 93, 1);	// #ffb05d / orange
+$primary-color:			    rgba(255, 176, 93, 1);	// #ffb05d / orange
 $primary-highlight:			rgba(201, 13, 75, 1); 	// #c90d4b / red
-$secondary-color:			rgba(110, 192, 178, 1); // #6ec0b2 / lightblue
+$secondary-color:       rgba(110, 192, 178, 1); // #6ec0b2 / lightblue
 $secondary-highlight:		rgba(0, 89, 111, 1);	// #00596f / darkblue
-$light: 					rgba(251, 245, 243, 1); // #fbf5f3 / light
-$dark:						rgba(5, 5, 5, 0);		// #050505 / dark
+$light: 					      rgba(251, 245, 243, 1); // #fbf5f3 / light
+$dark:						      rgba(5, 5, 5, 0);		// #050505 / dark
+$light-transparent:     rgba( $light, .2 );
+$dark-transparent:      rgba( $dark, .2 );
 
-$base-color:				$light;
+$base-color:				    $light;
 
-	
-// 
+
+//
 // Text
-// 
-$font:						sans-serif;
+//
 
-$h1-size:					$base-unit * 3;
-$h2-size:					$base-unit * 2.5;
-$h3-size:					$base-unit * 2;
-$h4-size:					$base-unit * 1.5;
+$font:						      sans-serif;
 
-$line-height: 				$base-unit;
-$font-size:					$base-unit;
+$h1-size:					      $base-unit * 3;
+$h2-size:					      $base-unit * 2.5;
+$h3-size:					      $base-unit * 2;
+$h4-size:					      $base-unit * 1.5;
 
-$title-color:				inherit;
-$text-color:				inherit;
+$line-height: 				  $base-unit;
+$font-size:					    $base-unit;
 
-// 
+$title-color:				    inherit;
+$text-color:				    inherit_;
+
+
+//
 // Background
 //
-$article-color:				rgba( $dark, .2 );
 
-// 
+$article-color:				  rgba( $dark, .2 );
+
+//
 // Borders
-// 
+//
 
-$border-radius:   			$base-unit / 5;
+$border-radius:   			$base-unit / 2;
+
+//
+// Shadows
+//
 
 
-// Article 
 
-$article-padding:  			3em;			
+$raise-1:               ($u/10) ($u/10) ($u/2) 1px rgba($dark, .2);
+$raise-2:               ($u/8) ($u/8) ($u/1.5) 1px rgba($dark, .2);
+$raise-3:               ($u/5) ($u/2) $u*2 1px rgba($dark, .2);
+
+$press-1:               inset ($u/5) ($u/10) ($u*2) 1px rgba($dark, .2);
+$press-2:               inset ($u/5) ($u/8) ($u*1.5) 1px rgba($dark, .2);
+$press-3:               inset ($u/5) ($u/5) $u 1px rgba($dark, .2);
+
+// Article
+
+$article-padding:  			3em;
+
+// Image
+

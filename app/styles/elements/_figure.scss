@@ -3,8 +3,9 @@ figure {
 	border-radius: $border-radius;
 	overflow: hidden;
 
-	&.overlap-left {
+	&.floating-image {
 		margin-left: -90px;
+    margin-bottom: 100px;
 	}
 }
 

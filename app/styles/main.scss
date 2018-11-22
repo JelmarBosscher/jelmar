@@ -17,8 +17,11 @@
 @import 'elements/figure';
 @import 'elements/image';
 
+@import 'elements/animator';
+
 // Modifiers
 @import 'modifiers/borders';
+@import 'modifiers/shadows';
 
 body {
   background: $light;

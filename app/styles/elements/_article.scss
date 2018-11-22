@@ -1,6 +1,32 @@
 article {
-  line-height: $line-height;
-  background-color: $article-color;
-  padding: $article-padding;
+	padding: $article-padding;
+	line-height: $line-height;
+	background-color: $article-color;
+	border-radius: $border-radius;
+  margin: 0 auto;
+
+  max-width: 600px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &.image-text {
+    box-shadow: $raise-3;
+
+    figure {
+      margin-left: -120px;
+      margin-bottom: 100px;
+    }
+  }
+
+  &.text-image {
+    box-shadow: $raise-3;
+
+    figure {
+      margin-right: -120px;
+      margin-bottom: 100px;
+    }
+  }
 }
 
