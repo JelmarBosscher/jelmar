@@ -1,0 +1,13 @@
+section {
+  margin: 60px 60px 0 60px;
+  border-radius: $border-radius;
+  
+  &:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  &.highlight {
+    background-size: cover;
+    background-position: center;
+  }
+}

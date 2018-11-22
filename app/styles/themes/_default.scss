@@ -1,0 +1,53 @@
+/* VARIABLES */
+
+// 
+// Units
+//
+
+$base-unit: 				20px; // Body font-size
+
+//
+// Colors
+//
+
+$primary-color:				rgba(255, 176, 93, 1);	// #ffb05d / orange
+$primary-highlight:			rgba(201, 13, 75, 1); 	// #c90d4b / red
+$secondary-color:			rgba(110, 192, 178, 1); // #6ec0b2 / lightblue
+$secondary-highlight:		rgba(0, 89, 111, 1);	// #00596f / darkblue
+$light: 					rgba(251, 245, 243, 1); // #fbf5f3 / light
+$dark:						rgba(5, 5, 5, 0);		// #050505 / dark
+
+$base-color:				$light;
+
+	
+// 
+// Text
+// 
+$font:						sans-serif;
+
+$h1-size:					$base-unit * 3;
+$h2-size:					$base-unit * 2.5;
+$h3-size:					$base-unit * 2;
+$h4-size:					$base-unit * 1.5;
+
+$line-height: 				$base-unit;
+$font-size:					$base-unit;
+
+$title-color:				inherit;
+$text-color:				inherit;
+
+// 
+// Background
+//
+$article-color:				rgba( $dark, .2 );
+
+// 
+// Borders
+// 
+
+$border-radius:   			$base-unit / 5;
+
+
+// Article 
+
+$article-padding:  			3em;			

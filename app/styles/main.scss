@@ -1,0 +1,27 @@
+// reset
+@import 'reset/normalize';
+@import 'reset/browsehappy';
+
+// Theme, Variables
+@import 'themes/default';
+
+// Structure
+@import 'structure/layout';
+@import 'structure/section';
+
+// Elements
+@import 'elements/section';
+@import 'elements/article';
+@import 'elements/headings';
+
+@import 'elements/figure';
+@import 'elements/image';
+
+// Modifiers
+@import 'modifiers/borders';
+
+body {
+  background: $light;
+  font-family: $font;
+  font-size: $base-unit;
+}

@@ -1,0 +1,10 @@
+figure {
+	margin: 0;
+	border-radius: $border-radius;
+	overflow: hidden;
+
+	&.overlap-left {
+		margin-left: -90px;
+	}
+}
+
