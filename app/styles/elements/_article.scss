@@ -4,14 +4,14 @@ article {
 	background-color: $article-color;
 	border-radius: $border-radius;
   margin: 0 auto;
-
-  max-width: 600px;
+  max-width: 300px;
 
   &:last-of-type {
     margin-bottom: 0;
   }
 
   &.image-text {
+    margin-left: 60px;
     box-shadow: $raise-3;
 
     figure {

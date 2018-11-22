@@ -12,41 +12,18 @@
 
   svg {
     position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    transform-origin: center;
-
-    animation: fade-in .5s .2s ease both;
-
-    @keyframes fade-in {
-      0% {
-        transform: scale(.9, .9);
-      }
-      100% {
-        transform: scale(1, 1);
-      }
-    }
+    left: 50%;
+    top: 60px;
+    height: 50px;
+    width: 50px;
+    transform-origin: auto;
+    transform: translate3d(-50%, 0, 0) scale(.8, .8);
 
     .dog {
-      position: absolute;
-      top: 0;
-      right: 0;
 
-      animation: evolve .5s 3s ease both;
-      transform-origin: center;
-      fill: rgba(0,0,0,1);
     }
-
-    @keyframes evolve {
-      0% {
-        transform: scale(.5, .5) translate3d(0, 5%, 0);
-      }
-      100% {
-        fill: rgba(0,0,0,.5) ;
-        transform: rotate(90deg) scale(.2, .2) translate3d(200%, 2%, 0);
-      }
+    .eye {
+      display: none;
     }
   }
 
